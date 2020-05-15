@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
+html {
+    margin-block-end: 0;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    color: palegoldenrod;
+    background-color: #e0dbca;
+}
+
+.f {
+    width: 30%;
+    flex: 1 1 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    background: #181818;
+    position: fixed;
+}
+
+.d {
+    color: #000000;
+    flex: 1 1 70%;
+    margin-left: 30%;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+a {
+    color: white;
+    font-size: 120%;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.url {
+    margin-top: 30px;
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+.url > li {
+    margin-top: 30px;
+}
+
+.url > li > a:active {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: right;
+    margin-right: 40px;
+    font-size: 250%;
+    font-weight: 400;
+}
+
+div > div {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10%;
+}
+
+div > div > ul {
+    font-size: 80%;
+    list-style: none;
+}
+
+div > div > ul > li > a {
+    color: #181818;
+    font-size: 100%;
+}
+
+p {
+    font-size: 95%;
+    text-align: center;
+    line-height: 150%;
+    padding: 0 50px;
+}
+
+h1, h3 {
+    border-bottom: #181818 2px solid;
+}
+
+.skills {
+    font-size: 90%;
+    column-count: 2;
+}
+
+#experience, #projects {
+    margin-top: 0;
+}
+
+#experience > div, #projects > div{
+    flex-flow: column;
+}
+
+#experience > div > ul, #projects > div > ul {
+    list-style: circle;
+}
+
+h4 {
+    margin-block-end: 0;
+}
