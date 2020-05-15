@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
 html {
+    scroll-behavior: smooth;
     margin-block-end: 0;
     font-size: 20px;
     font-family: 'Varela Round', sans-serif;
