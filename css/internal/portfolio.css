@@ -6,7 +6,6 @@ html {
 }
 
 body {
-    border: 1px solid transparent;
     margin: 0;
 }
 
@@ -95,12 +94,47 @@ i {
     /*color: #181818;*/
 }
 
-/*#call-action {
-    width: 100%;
-    background-color: #181818;
-    color: white;
+#works {
+    background: #f4f4f4;
     padding: 50px;
-}*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#works > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 80px;
+    grid-row-gap: 70px;
+}
+
+#works > div > div > h3 {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#works > div > div > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80%;
+}
+
+#works > div > div > div > div:last-child {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+#works > div > div > div > div:first-child:not(.text) {
+    border: 1px solid black;
+    padding: 5px 6px;
+    color: white;
+    background-color: #181818;
+}
 
 #contact {
     display: flex;
