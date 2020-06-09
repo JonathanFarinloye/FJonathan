@@ -34,16 +34,12 @@ nav > a:hover {
 }
 
 #about-me {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     /*background: url("img/bubble-dark.png");*/
 }
-
-/*h3 {*/
-/*    margin-bottom: 5%;*/
-/*}*/
 
 hr {
     border: 1px solid #181818;
@@ -52,6 +48,10 @@ hr {
 
 h1, h3 {
     font-family: 'Comic Neue', cursive;
+}
+
+h2 {
+    font-size: 200%;
 }
 
 p {
